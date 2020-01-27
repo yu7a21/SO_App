@@ -1,5 +1,6 @@
 body{
-  background-image: url(background.jpg)
+  background-image: url("/background.jpg");
+  font-family: "メイリオ";
 }
 
 main{
@@ -12,7 +13,7 @@ input{
   font-size:100%;
 }
 
-.message{
+.login-message{
   font-size:40px;
 }
 

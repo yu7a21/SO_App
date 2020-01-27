@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<body>
-  <head>
-    <meta charset="utf-8">
-    <title>ログイン</title>
-    <link rel="stylesheet" href="login-stylesheet.css">
-    <%= stylesheet_link_tag "login-stylesheet", :media => true %>
+<html>
+  <body>
+    <head>
+      <meta charset="utf-8">
+      <title>ログイン</title>
+      <%= stylesheet_link_tag 'login-stylesheet' %>
+    </head>
 
-
-  </head>
-
-  <main>
-    <p class = "login-message">ID,パスワードを入力してください</p>
-    <p>ID</p>
-    <input>
-    <p>パスワード</p>
-    <input>
-    <p></p>
-    <input class = "submit" type = submit value = "ログイン">
-  </main>
-</body>
+    <main>
+      <p class = "login-message">ID,パスワードを入力してください</p>
+      <p>ID</p>
+      <input>
+      <p>パスワード</p>
+      <input>
+      <p></p>
+      <input class = "submit" type = submit value = "ログイン">
+    </main>
+  </body>
+</html>
