@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'post/index'
+
   get "/" => "home#top"
   get "suubmit" => "home#submit"
   get "login" => "home#login"
