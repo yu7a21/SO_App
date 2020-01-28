@@ -1,10 +1,11 @@
 class HomeController < ApplicationController
-  def top
+  def index
+    @post = Post.all.order(created_at: :desc)
   end
 
-  def subit
-  end
-
-  def login
+  def create
+    @post = Post.new(content:params[:content])
+    @post.save
+    redirect_to("/")
   end
 end
